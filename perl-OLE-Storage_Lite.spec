@@ -8,12 +8,12 @@ Summary:	OLE::Storage_Lite perl module
 Summary(pl):	Modu³ OLE::Storage_Lite
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov >= 4.0.2-56
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl-IO-stringy
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
