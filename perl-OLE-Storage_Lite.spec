@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module allows you to read and write an OLE-Structured file.
 The module will work on the majority of Windows, UNIX and Macintosh
-platforms. 
-					 
+platforms.
+
 %description -l pl
 Modu³ ten umo¿liwia odczyt i zapis plików w standardziee OLE.
 Jest niezale¿ny od platformy systemowej i powinien dzia³aæ na systemach
@@ -34,7 +34,7 @@ Windows, UNIX i Macintosh.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
