@@ -27,7 +27,7 @@ The module will work on the majority of Windows, UNIX and Macintosh
 platforms.
 
 %description -l pl
-Modu³ ten umo¿liwia odczyt i zapis plików w standardziee OLE.
+Modu³ ten umo¿liwia odczyt i zapis plików w standardzie OLE.
 Jest niezale¿ny od platformy systemowej i powinien dzia³aæ na systemach
 Windows, UNIX i Macintosh.
 
