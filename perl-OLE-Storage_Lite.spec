@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla OLE::Storage_Lite - prosta klasa obs³uguj±ca interfejs 
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
 Release:	1.1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	78edc8f66074787b98af92df9bc5cc79
