@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	OLE
-%define	pnam	Storage_Lite
+%define		pdir	OLE
+%define		pnam	Storage_Lite
 Summary:	OLE::Storage_Lite Perl module - simple class for OLE document interface
 Summary(pl):	Modu³ Perla OLE::Storage_Lite - prosta klasa obs³uguj±ca interfejs dokumentów OLE
 Name:		perl-OLE-Storage_Lite
