@@ -7,7 +7,7 @@
 Summary:	OLE::Storage_Lite perl module
 Summary(pl):	Modu³ OLE::Storage_Lite
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.10
+Version:	0.11
 Release:	0.1
 License:	GPL
 Group:		Development/Languages/Perl
