@@ -8,12 +8,12 @@ Summary:	OLE::Storage_Lite perl module
 Summary(pl):	Modu³ OLE::Storage_Lite
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	0.1
+Release:	1.1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov >= 4.0.2-56
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-IO-stringy
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -32,7 +32,8 @@ Windows, UNIX i Macintosh.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -49,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/OLE/*.pm
+%{perl_vendorlib}/OLE/*.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
