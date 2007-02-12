@@ -6,7 +6,7 @@
 %define		pdir	OLE
 %define		pnam	Storage_Lite
 Summary:	OLE::Storage_Lite Perl module - simple class for OLE document interface
-Summary(pl):	Modu≥ Perla OLE::Storage_Lite - prosta klasa obs≥uguj±ca interfejs dokumentÛw OLE
+Summary(pl.UTF-8):   Modu≈Ç Perla OLE::Storage_Lite - prosta klasa obs≈ÇugujƒÖca interfejs dokument√≥w OLE
 Name:		perl-OLE-Storage_Lite
 Version:	0.14
 Release:	1
@@ -26,9 +26,9 @@ This module allows you to read and write an OLE-Structured file.
 The module will work on the majority of Windows, UNIX and Macintosh
 platforms.
 
-%description -l pl
-Modu≥ ten umoøliwia odczyt i zapis plikÛw w standardzie OLE.
-Jest niezaleøny od platformy systemowej i powinien dzia≥aÊ na systemach
+%description -l pl.UTF-8
+Modu≈Ç ten umo≈ºliwia odczyt i zapis plik√≥w w standardzie OLE.
+Jest niezale≈ºny od platformy systemowej i powinien dzia≈Çaƒá na systemach
 Windows, UNIX i Macintosh.
 
 %prep
