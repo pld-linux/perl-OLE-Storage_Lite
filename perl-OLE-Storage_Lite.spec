@@ -6,7 +6,7 @@
 %define		pdir	OLE
 %define		pnam	Storage_Lite
 Summary:	OLE::Storage_Lite Perl module - simple class for OLE document interface
-Summary(pl.UTF-8):   Moduł Perla OLE::Storage_Lite - prosta klasa obsługująca interfejs dokumentów OLE
+Summary(pl.UTF-8):	Moduł Perla OLE::Storage_Lite - prosta klasa obsługująca interfejs dokumentów OLE
 Name:		perl-OLE-Storage_Lite
 Version:	0.14
 Release:	1
