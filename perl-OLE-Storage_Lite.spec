@@ -9,7 +9,7 @@ Summary:	OLE::Storage_Lite Perl module - simple class for OLE document interface
 Summary(pl.UTF-8):	Moduł Perla OLE::Storage_Lite - prosta klasa obsługująca interfejs dokumentów OLE
 Name:		perl-OLE-Storage_Lite
 Version:	0.14
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
